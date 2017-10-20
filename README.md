@@ -40,7 +40,7 @@ add the following to shell launch file<br>
 `echo "export PROJECT_HOME=$HOME/Devel" >> ~/.bashrc`<br>
 *Normally the virualenvwrapper.sh will be /usr/local/bin/virualenvwrapper.sh,
 but it may be overridden with your current python environment.
-Please type* `$ which virualenvwrapper.sh` *to find the file.*<br>
+Please type* `which virualenvwrapper.sh` *to find the file.*<br>
 `echo "source /usr/local/bin/virualenvwrapper.sh" >> ~/.bashrc`<br>
 then reload it<br>
 `source ~/.bashrc`<br>
