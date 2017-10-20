@@ -7,7 +7,7 @@
 ・Python2.7.*
 
 
-## MULTIPLE VERSION CONEXISTENCE
+## Multipe version conexistence
 
 install Python2.* & Python3.*<br>
 *It is unnecessary if Python2 & 3 have been installed.*<br>
@@ -67,7 +67,7 @@ change working virtualenv to env_daa<br>
 ・ipython　3.2.1
 
 
-## PACKAGE INSTALLATION
+## Package installation
 *Make sure your Python is working on virtualenv of DAA, or typing* `workon env_daa`.<br>
 
 install package with spectic version into DAA virtualenv<br>
@@ -132,6 +132,10 @@ move to the result folder named startDAA_result_n<br>
 <br>
 launch summary.py to plot visual result<br>
 `ipython ../summary.py`<br>
+
+<br>
+<br>
+<br>
 
 
 *****************************************
