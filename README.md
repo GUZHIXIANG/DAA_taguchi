@@ -134,9 +134,9 @@ launch summary.py to plot visual result<br>
 `ipython ../summary.py`<br>
 
 
-
-# Original README.md
 *****************************************
+# Original README.md
+
 ## Nonparametric Bayesian Double Articulation Analyzer
 
 This is a Python implementation for Nonparametric Bayesian Double Articulation Analyzer (NPB-DAA). The NPB-DAA can directly acquire language and acoustic models from observed continuous speech signals.
