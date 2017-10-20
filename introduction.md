@@ -15,8 +15,8 @@
 MULTIPLE VERSION CONEXISTENCE
 ***********************************************************
 
-\# install Python2.* & Python3.*
-*It is unnecessary if Python2 & 3 have been installed.*
+\# install Python2.* & Python3.\n
+*It is unnecessary if Python2 & 3 have been installed.*\n
 `sudo apt-get install python2.7 python2.7-dev python3.5 python3.5-dev`
 
 \# install compile environment
