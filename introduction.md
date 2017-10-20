@@ -3,17 +3,17 @@
 
 # Development environment
 
-・Ubuntu 12/14/16 LTS
+・Ubuntu 12/14/16 LTS<br>
 ・Python2.7.*
 
-***********************************************************
+
 ## MULTIPLE VERSION CONEXISTENCE
 
-\# install Python2.* & Python3.*<br>
+install Python2.* & Python3.*<br>
 *It is unnecessary if Python2 & 3 have been installed.*<br>
 `sudo apt-get install python2.7 python2.7-dev python3.5 python3.5-dev`<br>
 <br>
-\# install compile environment<br>
+install compile environment<br>
 `sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev`<br>
 <br>
 install pip<br>
@@ -52,23 +52,23 @@ create a new Python2.7 virtualenv for DAA and switch to it<br>
 change working virtualenv to env_daa<br>
 *Type the following when the working virtualenv is diferent*<br>
 `workon env_daa`<br>
-***********************************************************
+
 
 
 
 # Requirement
 
-・numpy 1.6.1
-・matplotlib 1.1.1
-・scipy 0.9.0
-・scikit-learn 0.10
-・paver 1.2.4
-・pyzmq 14.6.0
+・numpy 1.6.1<br>
+・matplotlib 1.1.1<br>
+・scipy 0.9.0<br>
+・scikit-learn 0.10<br>
+・paver 1.2.4<br>
+・pyzmq 14.6.0<br>
 ・ipython　3.2.1
 
-***********************************************************
+
 ## PACKAGE INSTALLATION
-*Make sure your Python is working on virtualenv of DAA, or typing '$ workon env_daa'.*<br>
+*Make sure your Python is working on virtualenv of DAA, or typing* `workon env_daa`.<br>
 
 install package with spectic version into DAA virtualenv<br>
 *Do not type 'sudo' here, else packages will install into root environment.*<br>
@@ -77,7 +77,7 @@ install package with spectic version into DAA virtualenv<br>
 <br>
 *If you cannot install matplotlib as the issue 'ft2build.h no such file or directory ubuntu', try the following*<br>
 `sudo apt-get install libfreetype6 libfreetype6-dev`<br>
-***********************************************************
+
 
 
 # Sourcecode
@@ -96,7 +96,7 @@ add the following to the shell startup file (~/.bashrc)<br>
 move to the DAA path and modify core amount<br>
 *You can check the core amount in your PC by typing 'htop'*<br>
 *htop is an ncursed-based process viewer *<br>
-*htop installation -- 'sudo apt-get install htop'*<br>
+*htop installation* `sudo apt-get install htop`<br>
 `gedit ~/workspace/NPB_DAA_develop/IPCLUSTER.sh`<br>
 change the amout as below<br>
 `'ipcluster start -n 8' ---> 'ipcluster start -n YOUR_CORE_AMOUNT'`<br>
@@ -104,7 +104,7 @@ change the amout as below<br>
 
 
 # Launch DAA program
-*Make sure your Python is working on virtualenv of DAA, or typing '$ workon env_daa'.*<br>
+*Make sure your Python is working on virtualenv of DAA, or typing* `workon env_daa`.<br>
 <br>
 open a new terminal to launch htop for monitering core running<br>
 `htop`<br>
@@ -124,7 +124,7 @@ launch DAA program<br>
 
 
 # Result visualization
-*Make sure your Python is working on virtualenv of DAA, or typing '$ workon env_daa'.*<br>
+*Make sure your Python is working on virtualenv of DAA, or typing* `workon env_daa`.<br>
 <br>
 move to the result folder named startDAA_result_n<br>
 *The whole results are saved in the startDAA_result_n folder, which is named with the maximal number existed*<br>
