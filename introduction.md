@@ -9,49 +9,49 @@
 
 ## MULTIPLE VERSION CONEXISTENCE
 
-install Python2.* & Python3.*<br>
-*It is unnecessary if Python2 & 3 have been installed.*<br>
-`sudo apt-get install python2.7 python2.7-dev python3.5 python3.5-dev`<br>
-<br>
-install compile environment<br>
-`sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev`<br>
-<br>
-install pip<br>
-`sudo apt-get install python-pip`<br>
-<br>
-install virtualenv<br>
-*virtualenv is a tool to create isolated Python environments.*<br>
-`sudo pip install virtualenv`<br>
-<br>
-install Python2.7 virtualenv<br>
-`virtualenv --no-site-packages -p /usr/bin/python2.7 ~/.venv/python2.7`<br>
-<br>
-install Python3.5 virtualenv<br>
-`virtualenv --no-site-packages -p /usr/bin/python3.5 ~/.venv/python3.5`<br>
-<br>
-install virtualenvwrapper<br>
-*virtualenvwrapper is a set of extensions to virtualenv tool, which
-includes wrappers for creating and deleting virtual environments
-and managing your development workflow.*<br>
-`sudo pip install virtualenvwrapper`<br>
-<br>
-add the following to shell launch file (~/.bashrc)<br>
-`export WORKON_HOME=$HOME/.virtualenvs`<br>
-`export PROJECT_HOME=$HOME/Devel`<br>
-*Normally the virualenvwrapper.sh will be /usr/local/bin/virualenvwrapper.sh,
-but it may be overridden with your current python environment.
-Please type* `$ which virualenvwrapper.sh` *to find the file.*<br>
-`source /usr/local/bin/virualenvwrapper.sh`<br>
-then reload it<br>
-`$ source ~/.bashrc`<br>
-<br>
-create a new Python2.7 virtualenv for DAA and switch to it<br>
-*command reference* `mkvirtualenv ENVNAME -p PYTHON_VERSION`<br>
-`mkvirtualenv env_daa -p python2.7`<br>
-<br>
-change working virtualenv to env_daa<br>
-*Type the following when the working virtualenv is diferent*<br>
-`workon env_daa`<br>
+    install Python2.* & Python3.*<br>
+    *It is unnecessary if Python2 & 3 have been installed.*<br>
+    `sudo apt-get install python2.7 python2.7-dev python3.5 python3.5-dev`<br>
+    <br>
+    install compile environment<br>
+    `sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev`<br>
+    <br>
+    install pip<br>
+    `sudo apt-get install python-pip`<br>
+    <br>
+    install virtualenv<br>
+    *virtualenv is a tool to create isolated Python environments.*<br>
+    `sudo pip install virtualenv`<br>
+    <br>
+    install Python2.7 virtualenv<br>
+    `virtualenv --no-site-packages -p /usr/bin/python2.7 ~/.venv/python2.7`<br>
+    <br>
+    install Python3.5 virtualenv<br>
+    `virtualenv --no-site-packages -p /usr/bin/python3.5 ~/.venv/python3.5`<br>
+    <br>
+    install virtualenvwrapper<br>
+    *virtualenvwrapper is a set of extensions to virtualenv tool, which
+    includes wrappers for creating and deleting virtual environments
+    and managing your development workflow.*<br>
+    `sudo pip install virtualenvwrapper`<br>
+    <br>
+    add the following to shell launch file (~/.bashrc)<br>
+    `export WORKON_HOME=$HOME/.virtualenvs`<br>
+    `export PROJECT_HOME=$HOME/Devel`<br>
+    *Normally the virualenvwrapper.sh will be /usr/local/bin/virualenvwrapper.sh,
+    but it may be overridden with your current python environment.
+    Please type* `$ which virualenvwrapper.sh` *to find the file.*<br>
+    `source /usr/local/bin/virualenvwrapper.sh`<br>
+    then reload it<br>
+    `$ source ~/.bashrc`<br>
+    <br>
+    create a new Python2.7 virtualenv for DAA and switch to it<br>
+    *command reference* `mkvirtualenv ENVNAME -p PYTHON_VERSION`<br>
+    `mkvirtualenv env_daa -p python2.7`<br>
+    <br>
+    change working virtualenv to env_daa<br>
+    *Type the following when the working virtualenv is diferent*<br>
+    `workon env_daa`<br>
 
 
 
@@ -94,8 +94,8 @@ add the following to the shell startup file (~/.bashrc)<br>
 `export PYTHONPATH=/home/gu/workspace/NPB_DAA_develop`<br>
 <br>
 move to the DAA path and modify core amount<br>
-*You can check the core amount in your PC by typing 'htop'*<br>
-*htop is an ncursed-based process viewer *<br>
+*You can check the core amount in your PC by typing* `htop`<br>
+*htop is an ncursed-based process viewer*<br>
 *htop installation* `sudo apt-get install htop`<br>
 `gedit ~/workspace/NPB_DAA_develop/IPCLUSTER.sh`<br>
 change the amout as below<br>
