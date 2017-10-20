@@ -40,13 +40,13 @@ add the following to shell launch file (~/.bashrc)<br>
 `export PROJECT_HOME=$HOME/Devel`<br>
 *Normally the virualenvwrapper.sh will be /usr/local/bin/virualenvwrapper.sh,
 but it may be overridden with your current python environment.
-Please type '$ which virualenvwrapper.sh' to find the file.*<br>
+Please type* `$ which virualenvwrapper.sh` *to find the file.*<br>
 `source /usr/local/bin/virualenvwrapper.sh`<br>
 then reload it<br>
 `$ source ~/.bashrc`<br>
 <br>
 create a new Python2.7 virtualenv for DAA and switch to it<br>
-*command reference -- mkvirtualenv ENVNAME -p python_version*<br>
+*command reference* `mkvirtualenv ENVNAME -p PYTHON_VERSION`<br>
 `mkvirtualenv env_daa -p python2.7`<br>
 <br>
 change working virtualenv to env_daa<br>
@@ -72,7 +72,7 @@ change working virtualenv to env_daa<br>
 
 install package with spectic version into DAA virtualenv<br>
 *Do not type 'sudo' here, else packages will install into root environment.*<br>
-*command reference -- pip install PACKAGENAME==VERSION*<br>
+*command reference* `pip install PACKAGENAME==VERSION`<br>
 `pip install numpy==1.6.1 matplotlib==1.1.1 scipy==0.9.0 sckit-learn==0.10 paver==1.2.4 pyzmq==14.6.0 ipython==3.2.1`<br>
 <br>
 *If you cannot install matplotlib as the issue 'ft2build.h no such file or directory ubuntu', try the following*<br>
