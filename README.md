@@ -16,6 +16,9 @@ install Python2.* & Python3.*<br>
 install compile environment<br>
 `sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev`<br>
 <br>
+install python-tk for Python interface to Tcl/Tk<br>
+`sudo apt-get install python-tk python3-tk`<br>
+<br>
 install pip<br>
 `sudo apt-get install python-pip`<br>
 <br>
@@ -76,9 +79,7 @@ install package with spectic version into DAA virtualenv<br>
 <br>
 *If you cannot install matplotlib as the issue 'ft2build.h no such file or directory ubuntu', try the following*<br>
 `sudo apt-get install libfreetype6 libfreetype6-dev`<br>
-<br>
-install python-tk for Python interface to Tcl/Tk<br>
-`sudo apt-get install python-tk python3-tk`<br>
+
 
 
 
