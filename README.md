@@ -50,7 +50,7 @@ create a new Python2.7 virtualenv for DAA and switch to it<br>
 `mkvirtualenv env_daa -p python2.7`<br>
 <br>
 change working virtualenv to env_daa<br>
-*Type the following when the working virtualenv is diferent*<br>
+*Type the following when the working virtualenv is different*<br>
 `workon env_daa`<br>
 
 
