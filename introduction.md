@@ -35,13 +35,13 @@ includes wrappers for creating and deleting virtual environments
 and managing your development workflow.*<br>
 `sudo pip install virtualenvwrapper`<br>
 <br>
-add the following to shell launch file (~/.bashrc)<br>
-`export WORKON_HOME=$HOME/.virtualenvs`<br>
-`export PROJECT_HOME=$HOME/Devel`<br>
+add the following to shell launch file<br>
+`echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc`<br>
+`echo "export PROJECT_HOME=$HOME/Devel" >> ~/.bashrc`<br>
 *Normally the virualenvwrapper.sh will be /usr/local/bin/virualenvwrapper.sh,
 but it may be overridden with your current python environment.
 Please type* `$ which virualenvwrapper.sh` *to find the file.*<br>
-`source /usr/local/bin/virualenvwrapper.sh`<br>
+`echo "source /usr/local/bin/virualenvwrapper.sh" >> ~/.bashrc`<br>
 then reload it<br>
 `$ source ~/.bashrc`<br>
 <br>
@@ -89,9 +89,9 @@ create the workspace for DAA then go there<br>
 download DAA sourcecode from our gitlab or by usb flash drive<br>
 `git clone https://github.com/GUZHIXIANG/DAA_taguchi.git`<br>
 <br>
-add the following to the shell startup file (~/.bashrc)<br>
-*command reference -- export PYTHONPATH=the DAA path*<br>
-`export PYTHONPATH=/home/gu/workspace/NPB_DAA_develop`<br>
+add the following to the shell launch file<br>
+*command reference* `export PYTHONPATH=YOUR_DAA_PATH`<br>
+`echo "export PYTHONPATH=/home/gu/workspace/NPB_DAA_develop" >> ~/.bashrc`<br>
 <br>
 move to the DAA path and modify core amount<br>
 *You can check the core amount in your PC by typing* `htop`<br>
