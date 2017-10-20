@@ -43,7 +43,7 @@ but it may be overridden with your current python environment.
 Please type* `$ which virualenvwrapper.sh` *to find the file.*<br>
 `echo "source /usr/local/bin/virualenvwrapper.sh" >> ~/.bashrc`<br>
 then reload it<br>
-`$ source ~/.bashrc`<br>
+`source ~/.bashrc`<br>
 <br>
 create a new Python2.7 virtualenv for DAA and switch to it<br>
 *command reference* `mkvirtualenv ENVNAME -p PYTHON_VERSION`<br>
