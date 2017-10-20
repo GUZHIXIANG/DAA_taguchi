@@ -49,7 +49,6 @@ create a new Python2.7 virtualenv for DAA and switch to it<br>
 *command reference* `mkvirtualenv ENVNAME -p PYTHON_VERSION`<br>
 `mkvirtualenv env_daa -p python2.7`<br>
 <br>
-change working virtualenv to env_daa<br>
 *Type the following when the working virtualenv is different*<br>
 `workon env_daa`<br>
 
@@ -77,6 +76,9 @@ install package with spectic version into DAA virtualenv<br>
 <br>
 *If you cannot install matplotlib as the issue 'ft2build.h no such file or directory ubuntu', try the following*<br>
 `sudo apt-get install libfreetype6 libfreetype6-dev`<br>
+<br>
+install python-tk for Python interface to Tcl/Tk<br>
+`sudo apt-get install python-tk python3-tk`<br>
 
 
 
